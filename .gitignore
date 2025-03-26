@@ -1,6 +1,10 @@
 #not owned
 SDL3.DLL
+*.dll
 src
 songs
 main.exe
 .vscode
+main*
+*.exe
+SeniorProject.code-workspace

@@ -2,11 +2,14 @@
 
 
 all:
-	g++ -o main.exe main.cpp -Isrc/include -Lsrc/lib -lSDL3
+	g++ -o visualizer.exe visualizer.cpp -Isrc/include -Lsrc/lib -lSDL3
 
+debug:
+	g++ -o visualizer.exe visualizer.cpp -Isrc/include -Lsrc/lib -lSDL3 -DDEBUG
 
 
 
 clean:
-	rm main.exe
-	rm main.o 
+	rm visualizer.exe
+	rm visualizer.o 
+	
